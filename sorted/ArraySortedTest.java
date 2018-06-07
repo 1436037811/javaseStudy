@@ -34,6 +34,7 @@
             test.quickSort(num4,0,num4.length-1);
             System.out.println("快速排序后："+test.showArray(num4));
 
+<<<<<<< HEAD
             //测试二分插入排序
             int[] num5 = {12,11,20,21,2,3,6,8,1,10};
             test.binarySort(num5);
@@ -43,6 +44,12 @@
 			int[] num6 = {12,11,20,21,2,3,6,8,1,10};
             test.mergeSort(num6,0,num6.length-1);
             System.out.println("二分归并排序后："+test.showArray(num6));
+=======
+            //测试二分排序
+            int[] num5 = {12,11,20,21,2,3,6,8,1,10};
+            test.binarySort(num5);
+            System.out.println("二分排序后："+test.showArray(num5));
+>>>>>>> 12dc22d2b2cf37df7c887f6172428e7972f83893
 
         }
     }

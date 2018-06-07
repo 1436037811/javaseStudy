@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿    package study.javase.homework5;
+=======
+    package study.javase.homework5;
+>>>>>>> 12dc22d2b2cf37df7c887f6172428e7972f83893
 
     /**
      * 排序算法工具类
@@ -44,8 +48,11 @@
 
         /**
          * 冒泡排序算法
+<<<<<<< HEAD
 		 * 时间复杂度：O(n^2)
 		 * 空间复杂度：O(1)
+=======
+>>>>>>> 12dc22d2b2cf37df7c887f6172428e7972f83893
          * @param num 进行排序的数组
          */
         public void bubbleSort(int[] num){
@@ -64,8 +71,11 @@
 
         /**
          * 选择排序
+<<<<<<< HEAD
 		 * 时间复杂度：O(n^2)
 		 * 空间复杂度：O(1)
+=======
+>>>>>>> 12dc22d2b2cf37df7c887f6172428e7972f83893
          * @param num 进行排序的数组
          */
         public void selectSort(int[] num){
@@ -84,8 +94,11 @@
 
         /**
          * 插入排序
+<<<<<<< HEAD
 		 * 时间复杂度：O(n^2)
 		 * 空间复杂度：O(1)
+=======
+>>>>>>> 12dc22d2b2cf37df7c887f6172428e7972f83893
          * @param num 进行排序的数组
          */
         public void insertSort(int[] num){
@@ -133,8 +146,11 @@
 
         /**
          * 堆排序
+<<<<<<< HEAD
 		 * 时间复杂度：O(nlog2n)
 		 * 空间复杂度：O(1)
+=======
+>>>>>>> 12dc22d2b2cf37df7c887f6172428e7972f83893
          * @param num 进行排序的数组
          */
         public void heapSort(int[] num){
@@ -191,8 +207,11 @@
 
         /**
          * 快速排序
+<<<<<<< HEAD
 		 * 时间复杂度：O(nlog2n)
 		 * 空间复杂度：O(nlog2n)
+=======
+>>>>>>> 12dc22d2b2cf37df7c887f6172428e7972f83893
          * @param num 进行排序的数组
          * @param start 开始位置
          * @param end 结束位置
@@ -210,6 +229,7 @@
         }
 
         /**
+<<<<<<< HEAD
          * 二分插入排序
 		 * 时间复杂度：O(n^2)
 		 * 空间复杂度：O(1)
@@ -312,5 +332,13 @@
 			}
 		
 		}
+=======
+         * 二分排序
+         * @param num 进行排序的数组
+         */
+        public void binarySort(int[] num){
+
+        }
+>>>>>>> 12dc22d2b2cf37df7c887f6172428e7972f83893
 
     }
